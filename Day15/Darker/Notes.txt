@@ -1,0 +1,7 @@
+In this example:
+
+1. An overlay div with the class .overlay is added inside the .thumbnail div to create the darkening effect.
+2. Initially, the overlay is invisible (opacity: 0) and becomes visible (opacity: 1) when hovering over the thumbnail.
+3. Adjust the background-color property of the overlay to change the darkness level. The rgba() function allows you to specify the color with an alpha channel for opacity.
+4. The transition property ensures a smooth transition when the overlay becomes visible.
+5. Feel free to adjust the opacity value and transition timing to achieve the desired effect.

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinMax Demo</title>
+    <style>
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-columns: minmax(max-content, max-content) 100px 100px;
+            /* if we have enough space to expand upto max value it will take the max value 
+               if we don't have the max value we will still ocuppy the min value and a scroll bar is produced
+               if the minvalue is greater than max value it will only consider the minvalue and ignore the max value
+               */
+            /* grid-template-columns: minmax(500px, 400px) 2fr 1fr; */
+
+            /* grid-template-columns: minmax(max-content, max-content) 1fr 1fr; */
+        }
+        .grid-item{
+            border-radius: 5px;
+            padding: 20px;
+            background-color: aqua;
+        }
+        .a{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item a">minmax</div>
+        <!-- <div class="grid-item a">minmax(10px, 200px)</div> -->
+        <!-- <div class="grid-item a">This is the max-content minmax</div> -->
+        <div class="grid-item">B</div>
+        <div class="grid-item">C</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+5:00 PM IST to 6:50 PM IST
+
+Box Model:
+Q. How to view the elements in the browser using inspect element
+DIFFERENCE BETWEEN :
+a. Padding and Margin
+b. Border and Outline
+About the use of Outline why and when do we use Outline
+how it is different from normal boder
+-----------
+CSS
+-----------
+About selectors
+CSS Rules 
+selectors definition 
+types lo : { *-universal, class, id, element }
+different ways of applying selectors{
+    1. Combinators 
+        {   descendant
+            child
+            adjcent sibiling
+            all sibiling
+        }
+}
+Display:flex can also be used to display elements inline
+
+ai ds 
+ecm
+8260737772

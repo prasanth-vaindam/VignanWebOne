@@ -1,0 +1,25 @@
+A media query in CSS allows you to apply specific styles based on certain conditions like screen width, device orientation, resolution, etc. This is particularly useful for creating responsive designs that adapt to different devices and screen sizes. 
+
+/* Styles for landscape orientation */
+@media screen and (orientation: landscape) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+/* Styles for screens between 600px and 900px width in landscape orientation */
+@media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
+    .container {
+        width: 80%;
+    }
+}
+This example applies styles to a container when the screen width is between 600px and 900px in landscape orientation.
+
+/* Styles for landscape orientation */
+@media screen and (orientation: landscape) {
+    body {
+        font-size: 18px;
+    }
+}
+Here, the font size of the body will increase to 18 pixels when the device is in landscape orientation.

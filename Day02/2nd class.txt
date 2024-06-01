@@ -1,0 +1,28 @@
+Day2:
+Recap:
+Aim: To Build Websites and learn Web Technologies - HTML, CSS and JS
+
+Extension -> 
+text -> .txt
+html -> .html
+
+IDE - Intregrated Developmemnt Env
+WebPage - 
+HTML IS Structured Document
+doctype
+html is the root tag
+head tag contains metainformation
+body tag contains visible information
+What is an IDE - VS Code
+Difference between Static and Dynamic Websites
+How to view the page souce of a website
+How do we open our html files - Using Browser
+
+---
+Plan for Day 3:
+html tasks for beginners
+HTML CSS QUIZ
+let me see how much you know 
+task 1 - color all paragraphs with blue
+task 2 - difference between inline and block level
+task 3 - 

@@ -1,0 +1,34 @@
+Important Tags:
+Table:
+Q. What are tables used for in HTML?
+A: To reresent Data in Rows and Coloumns
+
+
+Use CSS styles to make the table 300 pixels wide.
+Use the correct CSS border values to create a solid black 3 pixels border on a table element.
+
+Lists:
+- Ordered List Unordered List 
+- ListItems containg Image side by side
+
+----
+Plan For Tomorrow:
+visiblity:hidden
+display:none
+------------------
+display:flex
+display:grid
+inline-flex
+display flex and display:block
+----
+grid-table laga
+----
+cell-padding - cell spacing
+table -> tr td
+colspan rowspan
+td
+list
+------
+vh vw 
+width: 50px
+width: 50vw

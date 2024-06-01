@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Based Placement Spanning Tracks</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px;
+
+            gap: 10px;
+        }
+
+        .item {
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+            height: 100px;
+        }
+
+        .a {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .b {
+            grid-column: 3;
+            grid-row: 1 / 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item a">A</div>
+        <div class="item b">B</div>
+        <div class="item c">C</div>
+        <div class="item d">D</div>
+    </div>
+</body>
+
+</html>

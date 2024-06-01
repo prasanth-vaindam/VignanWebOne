@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Effects</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: skyblue;
+            height: 80vh;
+            /* margin-top: auto; */
+
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        #sun {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gold;
+        }
+
+        #moon {
+            display: flex;
+            justify-content: center;
+            margin-left: 30px;
+            align-items: center;
+            background-color: white;
+        }
+
+        #moon:hover,
+        #sun:hover {
+            
+            box-shadow: 0px 0px 10px 10px white, inset 1px 1px 50px rgba(255, 215, 0, 1);
+            /* box-shadow: ; */
+        }
+
+        #sun:hover~#moon {
+            /* box-shadow: 0px 0px 100px 10px gold; */
+            opacity: .5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="sun">sun</div>
+        <div class="box" id="moon">moon</div>
+    </div>
+</body>
+
+</html>

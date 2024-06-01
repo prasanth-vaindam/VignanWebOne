@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Picture</title>
+    <style>
+        .container {
+            display: flex;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 10px;
+            /* transition: border-radius 1s ease-in-out; */
+
+        }
+
+        .container:hover {
+            border-radius: 60px;
+            box-shadow: inset 0px 0px 1000px 0px rgb(75, 75, 74,0.5);
+
+        }
+
+        .profile-pic {
+            width: 200px;
+            /* border-radius: 60px; */
+            height: 200px;
+            /* transition: box-shadow 0.1s ease; */
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.2);
+            /* transform:scale(1.95); */
+            /* border-radius: 10px; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <img class="profile-pic" src="pexels-pixabay-415829.jpg" alt="girl">
+
+    </div>
+</body>
+
+</html>

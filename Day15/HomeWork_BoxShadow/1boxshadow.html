@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxShadow:Thumbnail Hover Effect</title>
+    <style>
+        .container {
+            display: flex;
+            /* justify-content: space-evenly; */
+            align-items: center;
+            height: 80vh;
+            background-color: skyblue
+        }
+
+        .sun {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(234, 223, 8,0.5);;
+            border-radius: 100px;
+            margin: 20px;
+            z-index: 1;
+            /* transition: box-shadow 1s ease; */
+        }
+
+        .sun:hover {
+            box-shadow: 0 0 100px 100px rgba(234, 223, 8,1);
+        }
+
+        .moon {
+            width: 100px;
+            height: 100px;
+            background-color: #f0f0f0;
+            margin: 40px;
+            border-radius: 0%;
+            transition: box-shadow 0.3s ease, border-radius 0.6s ease;
+        }
+
+        .moon:hover {
+            border-radius: 50%;
+            box-shadow: 0 0 100px 100px rgb(254, 254, 254);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sun"></div>
+        <div class="moon"></div>
+    </div>
+
+</body>
+
+</html>

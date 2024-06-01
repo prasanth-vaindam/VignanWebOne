@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VW and VH Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 90vw;
+            /* 90% of the viewport width */
+            height: 90vh;
+            /* 90% of the viewport height */
+            background-color: #f0f0f0;
+            border: 2px solid #333;
+            margin: 5vh auto;
+            /* Centering vertically */
+            padding: 2vw;
+            box-sizing: border-box;
+        }
+
+        .content {
+            font-size: 3vw;
+            /* 3% of the viewport width */
+            line-height: 5vh;
+            /* 5% of the viewport height */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1>VW and VH Example</h1>
+            <p>This is a simple example demonstrating the use of VW (viewport width) and VH (viewport height) units in
+                HTML and CSS.</p>
+            <p>Viewport width (VW) and viewport height (VH) units are relative units based on the size of the browser
+                window or viewport.</p>
+            <p>Using VW and VH units can help create designs that are responsive and adapt well to different screen
+                sizes.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

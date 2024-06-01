@@ -1,0 +1,7 @@
+	
+Dynamic Heading SIZE
+Flexible cards
+--colorprimary
+snap scrolling
+scroll-snap-align: start
+scroll-snap-type: y mandatory

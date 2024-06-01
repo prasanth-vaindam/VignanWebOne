@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thumbnail Hover Effect</title>
+<style>
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    transition: box-shadow 0.3s ease, border-radius 0.3s ease;
+    /* border-radius: 10px; Initial border-radius */
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%; /* Rounded edges on hover */
+}
+</style>
+</head>
+<body>
+
+<div class="thumbnail"></div>
+
+</body>
+</html>

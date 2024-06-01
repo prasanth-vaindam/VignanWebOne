@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow Demo</title>
+    <style>
+        .visible {
+            border: 2px dotted black;
+            width: 100px;
+            height: 50px;
+            /* overflow: visible; */
+
+        }
+
+        .hidden {
+            border: 2px dotted black;
+            width: 100px;
+            height: 50px;
+            /* overflow: hidden; */
+        }
+
+        .scroll {
+            border: 2px dotted black;
+            width: 50px;
+            height: 50px;
+            overflow: scroll;
+        }
+
+        .clip {
+            border: 2px dotted black;
+            width: 100px;
+            height: 50px;
+            overflow: clip;
+            overflow-clip-margin: 40px;
+        }
+
+        .auto {
+            border: 2px dotted black;
+            width: 50px;
+            height: 50px;
+            overflow: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <br>
+    <div class="scroll">Only fe
+    </div>
+    <br>
+    <div class="auto">Only few words are shown rest of the para is hidden text beyond this is not visible
+
+    </div>
+    <!-- <br>
+    <div class="scroll">Michaelmas term lately over, and the Lord Chancellor sitting in Lincoln's Inn Hall. Implacable
+        November weather. As much mud in the streets as if the waters had but newly retired from the face of the earth.
+    </div>
+    <br>
+    <div class="auto">Michaelmas term lately over, and the Lord Chancellor sitting in Lincoln's Inn Hall. Implacable
+        November weather. As much mud in the streets as if the waters had but newly retired from the face of the earth.
+    </div>
+    <br>
+    <div class="visible">Michaelmas term lately over, and the Lord Chancellor sitting in Lincoln's Inn Hall. Implacable
+        November weather. As much mud in the streets as if the waters had but newly retired from the face of the earth.
+    </div> -->
+
+</body>
+
+</html>

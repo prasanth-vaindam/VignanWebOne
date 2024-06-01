@@ -1,0 +1,29 @@
+#parent{
+    /* display: flex;    */
+}
+
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    /* padding: top right bottom left; */
+
+    /* visibility: hidden; */
+    border: 2px solid rgb(255, 251, 0);
+}
+span{
+    padding: 50px 50px;
+    background-color: #d70a0a;
+    width: 100px;
+    height: 100px; 
+    box-sizing: border-box;
+    display: inline-block;   
+    border: 2px solid rgb(255, 230, 0);
+    /* does not start in a new line, however, it still accepts width and height
+    */
+}

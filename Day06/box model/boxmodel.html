@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Example</title>
+    <style>
+        /* .parent {
+            background-color: yellow
+        } */
+
+        .parent {
+            display: flex;
+            /* background-color: yellow */
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #f0f0f0;
+            margin-top: 100px;
+            margin-right: 100px;
+            margin-left: 100px;
+            text-align: center;
+            vertical-align: 2px;
+            /* Margin around the box */
+            padding: 20px 20px 0px 100px;
+            outline-color: red;
+            outline-style: auto;
+            outline-width: 2px;
+            outline-offset: 10px;
+
+
+            /* outline: red solid 100px; */
+            /* Border around the box */
+            /* box-sizing: border-box; */
+            /* Include padding and border in the box dimensions */
+        }
+    </style>
+</head>
+
+<body class="parent">
+    <div class="parent">
+
+        <div class="box">
+            boy
+            <!-- <p>para1</p> -->
+            <!-- <code>Hello</code> -->
+        </div>
+        <!-- <p>para2</p> -->
+        <div class="box">
+            girl
+            <!-- <p>para3</p> -->
+        </div>
+        <!-- <p>para4</p> -->
+    </div>
+
+    <!-- <div class="box">
+        <p>paraoutside</p>
+        <code>Hello</code>
+    </div> -->
+
+
+</body>
+
+</html>

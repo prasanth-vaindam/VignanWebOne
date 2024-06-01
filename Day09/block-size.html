@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Layout</title>
+    <style>
+        .container {
+            border: 1px solid black;
+            padding: 20px;
+            /* Common styling for both horizontal and vertical writing modes */
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* English (horizontal) writing mode */
+        .horizontal {
+            writing-mode: horizontal-tb;
+            /* default value */
+            block-size: 400px;
+            /* Height of the container */
+            /* width: 300px; */
+            /* Width of the container */
+        }
+
+        /* Japanese (vertical) writing mode */
+        .vertical {
+            writing-mode: vertical-rl;
+            block-size: 400px;
+            /* Width of the container */
+            /* height: 200px; */
+            /* Height of the container */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container horizontal">
+        <h2>Horizontal Layout</h2>
+        <!-- <p>This layout is optimized for horizontal writing modes like English.</p> -->
+    </div>
+
+    <div class="container vertical">
+        <h2>Vertical Layout</h2>
+        <!-- <p>This layout is optimized for vertical writing modes like Japanese.</p> -->
+    </div>
+
+</body>
+
+</html>

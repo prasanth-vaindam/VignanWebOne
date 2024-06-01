@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            border: 10px solid black;
+            grid-template-rows: minmax(100px, auto) 100px 100px 100px;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-auto-flow: row;
+            gap: 1em;
+           
+
+            /* grid-template-columns: 100px 200px 100px; */
+
+            /* grid-template-columns: repeat(3, 100px); */
+            /* grid-template-rows: fit-content; */
+            /* grid-auto-flow: dense; */
+            /* gap: 0px; */
+            /* row-gap: 10px; */
+            /* gap: 0px; */
+            /* height: min-content; */
+            /* align-items: center; */
+            /* align-content: baseline; */
+            /* justify-content: baseline; */
+        }
+
+       
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 3; 
+            grid-row-start: 1;
+            grid-row-end: 3;           
+        }
+
+        .grid-item {            
+            color: white;
+            border: 10px solid blue;
+            background-color: rgb(61, 224, 63);
+            border-radius: 5px;
+            text-align: center;
+            padding: 30px;
+            font-weight: bolder;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <!-- <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+        <div class="grid-item item6">6</div> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+Open Tasks: May 23rd 2024 10:00 AM - 12:00
+----------------------------
+Later Tomorrow: 1. Discuss the HOME Work - Tribute Page
+2. Max-Width
+3. Block-size
+4. Transform
+5. Transition
+------------------
+Explain the HOME WORK:
+scale to zoom out inplace and profile pic
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #section1 {
+            background-color: #f70d0d;
+        }
+
+        #section2 {
+            background-color: #2c08cf;
+        }
+
+        #section3 {
+            background-color: #d0d0d0;
+        }
+
+        #section4 {
+            background-color: #12e615;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <button onclick="scrollToSection('section1', 'smooth')">Go to Section 1 (Smooth)</button>
+        <button onclick="scrollToSection('section2', 'smooth')">Go to Section 2 (Smooth)</button>
+        <button onclick="scrollToSection('section3', 'smooth')">Go to Section 3 (Smooth)</button>
+        <button onclick="scrollToSection('section4', 'smooth')">Go to Section 4 (Smooth)</button>
+    </nav>
+    <section id="section1">Section 1 (Smooth Scroll)</section>
+    <section id="section2">Section 2 (Instant Scroll)</section>
+    <section id="section3">Section 3 (Smooth Scroll)</section>
+    <section id="section4">Section 4 (Instant Scroll)</section>
+
+    <script>
+        function scrollToSection(sectionId, behavior) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: behavior });
+        }
+    </script>
+</body>
+
+</html>

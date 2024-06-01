@@ -1,0 +1,24 @@
+HomeWork Review:
+Hover Effect and underline
+colgroup apply style and hiding
+---------------
+List:
+Tasks
+---------------
+Div:
+an element that groups similar content together on a web page.
+it just divides the document into sections.
+Display a Div in the center
+Hide the Div using visibilty:none
+----
+what had happened:
+about hover proerty
+List
+ul ol dl
+list with in list
+displaying images using list - inline
+display
+explained a littile about selectors
+dom tree
+
+

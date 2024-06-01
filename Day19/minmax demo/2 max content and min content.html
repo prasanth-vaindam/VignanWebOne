@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinMax Demo</title>
+    <style>
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 100px 100px 100px;
+            /*
+            sdf
+               */
+            grid-template-columns: minmax(min-content, min-content) 1fr 1fr;
+
+            /* grid-template-columns: minmax(max-content, max-content) 1fr 1fr; */
+        }
+        .grid-item{
+            border-radius: 5px;
+            padding: 20px;
+            background-color: aqua;
+        }
+        .a{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <!-- <div class="grid-item a">minmax</div> -->
+        <div class="grid-item a">India is my country and all Indians are my brothers and sisters. I love my country and I am proud of its rich and varied
+        heritage. I shall always strive to be worthy of it. I shall give my parents, teachers and all elders respect and treat
+        everyone with courtesy.</div>
+        <!-- <div class="grid-item a">This is the max-content minmax</div> -->
+        <div class="grid-item">B</div>
+        <div class="grid-item">C</div>
+    </div>
+</body>
+
+</html>

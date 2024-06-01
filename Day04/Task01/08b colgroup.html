@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table with Column Grouping</title>
+  <style>
+    col.middle {
+      visibility: inherit;
+    }
+
+    tr {
+      border-bottom: 1px solid black;
+    }
+
+    th,
+    td,
+    table {
+      border: none;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <table border="1">
+    <colgroup>
+      <col span="2" style="background-color: rgb(236, 39, 39);"> <!-- First two columns -->
+      <col class="middle" span="2" style="background-color: lightblue;">
+      <!-- Middle two columns with background color -->
+      <col span="2"> <!-- Last two columns -->
+    </colgroup>
+    <tr>
+      <td>Column 1</td>
+      <td>Column 2</td>
+      <td>Column 3</td>
+      <td>Column 4</td>
+      <td>Column 5</td>
+      <td>Column 6</td>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <td>Data 3</td>
+      <td>Data 4</td>
+      <td>Data 5</td>
+      <td>Data 6</td>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <td>Data 3</td>
+      <td>Data 4</td>
+      <td>Data 5</td>
+      <td>Data 6</td>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <td>Data 3</td>
+      <td>Data 4</td>
+      <td>Data 5</td>
+      <td>Data 6</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

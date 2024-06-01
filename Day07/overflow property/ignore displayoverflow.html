@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow: auto vs scroll Example</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 20px auto;
+            padding: 10px;
+            box-sizing: border-box;
+            overflow: hidden;
+            /* Initially hide overflow */
+        }
+
+        .auto-scroll {
+            overflow: auto;
+        }
+
+        .scroll {
+            overflow: scroll;
+        }
+
+        .content {
+            width: 280px;
+            /* Reduced width to prevent overflow */
+            height: 120px;
+            /* Reduced height to prevent overflow */
+            background-color: #f0f0f0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container auto-scroll">
+        <div class="content" id="autoContent">
+            <h2>Overflow: auto</h2>
+            <p>overflow set to auto. Scroll bars will appear automatically only when necessary.</p>
+        </div>
+    </div>
+
+    <div class="container scroll">
+        <div class="content" id="scrollContent">
+            <h2>Overflow: scroll</h2>
+            <p>This container has overflow set to scroll. Scroll bars will always be visible, regardless of whether
+                there is overflow content or not.</p>
+        </div>
+    </div>
+
+    <script>
+        // Add content to trigger overflow
+        var autoContent = document.getElementById('autoContent');
+        var scrollContent = document.getElementById('scrollContent');
+
+        // Adding content dynamically to trigger overflow
+        for (var i = 30; i < 20; i++) {
+            autoContent.innerHTML += "<p>Auto content " + (i + 1) + "</p>";
+            scrollContent.innerHTML += "<p>Scroll content " + (i + 1) + "</p>";
+        }
+
+        // Make the overflow visible after adding content
+        document.querySelectorAll('.container').forEach(function (container) {
+            container.style.overflow = 'auto'; // Change to 'auto' or 'scroll' to see the difference
+        });
+    </script>
+
+</body>
+
+</html>

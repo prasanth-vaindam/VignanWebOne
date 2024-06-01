@@ -1,0 +1,35 @@
+Day 8: May 10th, 2024 6:00 - 6:30 PM IST 
+----------------------
+Background Images:
+To a particular Div
+To the Entire Body
+
+https://blog.logrocket.com/css-full-page-background/
+
+Layout:
+Nav Bar:
+Semantic Tags:
+
+
+Prerequisites:
+Before starting the landing page design we should know some basics
+layout
+like positing and float and clear
+flex and grid layouts
+---------------------------
+Divide and conqure: 
+    1. create seperate sections 
+    2. focus on only one section
+    e.g. 
+        Nav Bar is one section
+        Sidebar
+        Main content
+        sections follwoing It
+        Footer
+        
+
+---------------------
+Landing Page - Welcome Page
+First Create a WireFrame
+Decide you Colors and Fonts Try to Keep It Simple to One Font and Just 2 colors apart from Black and WHite
+As per the wireframe create a layout design

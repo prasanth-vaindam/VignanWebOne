@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow in Container</title>
+    <style>
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            /* The below code overflows */
+            /* grid-template-columns: 100px 100px; */
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            /* grid-template-rows: repeat(4, 100px); */
+            /* grid-auto-flow: row; */
+            border: 10px solid black
+        }
+
+        .grid-item {
+            background-color: blue;
+        }
+
+        .a {
+            /* width: 100px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item  a">A</div>
+        <div class="grid-item">B</div>
+        <div class="grid-item">C</div>
+    </div>
+</body>
+
+</html>

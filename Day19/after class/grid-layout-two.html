@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout One</title>
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+
+        .grid-container {
+            display: grid;
+            /* gap: 10px 15px; */
+            grid-template-columns: 100px 100px 100px 100px 100px 100px;
+            grid-template-rows: 120px 200px 100px;
+            grid-template-areas: ". left-header left-header left-header left-header left-header"
+                "main-one main-one main-one main-two main-two main-two"
+                "footer footer footer footer footer footer";
+                background-color: black;
+        }
+
+        .box {
+            border-radius: 15px;
+        }
+
+        .left-header {
+            grid-area: left-header;
+            background-color: #D00041;
+            margin-top: -10px;
+            margin-bottom: -10px;
+            padding: 20px
+        }
+
+        .right-header {
+            grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-color: #66C3E2;
+            padding: 20px;
+            opacity: 0.8;
+            margin-top: 30px;
+            margin-bottom: -90px;
+        }
+
+        .main-one {
+            grid-area: main-one;
+            background-color: #FEF248;
+            opacity: 0.8;
+            margin-left: -10px;
+            margin-right: 10px;
+            margin-top: -40px;
+            margin-bottom: 170px;
+            padding-bottom: 50px ;
+            height: 200px;
+        }
+
+        .main-two {
+            grid-area: main-two;
+            background-color: #FEF248;
+            height: 200px;
+            opacity: 0.8;
+            margin-left: -40px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 170px;
+            padding-bottom: 50px ;
+            z-index: 1;
+        }
+
+        .footer {
+            grid-area: footer;
+            opacity: 8;
+            margin-left: 10px;
+            background-color: #AE0037;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="grid-container">
+            <div class="box left-header">l-header</div>
+            <div class="box right-header">r-header</div>
+            <div class="box main-one">main-one</div>
+            <div class="box main-two">main-two</div>
+            <div class="box footer">footer</div>
+        </div>
+    </div>
+</body>
+
+</html>

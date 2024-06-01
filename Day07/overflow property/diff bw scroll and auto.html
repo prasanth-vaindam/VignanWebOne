@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow: auto vs scroll Example</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 20px auto;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .auto-scroll {
+            overflow: auto;
+        }
+
+        .scroll {
+            overflow: scroll;
+        }
+
+        .content {
+            width: 400px;
+            /* Wider than the container */
+            height: 200px;
+            /* Taller than the container */
+            background-color: #f0f0f0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container auto-scroll">
+        <div class="content">
+            <h2>Overflow: auto</h2>
+            <!-- <p>This container has overflow set to auto. If content exceeds the container's dimensions, scroll bars will
+                appear automatically.</p> -->
+            <p>Loremque nunc.</p>
+        </div>
+    </div>
+
+    <div class="container scroll">
+        <div class="content">
+            <h2>Overflow: scroll</h2>
+            <p>This container has overflow set to scroll. Scroll bars will always be visible, regardless of whether
+                there is overflow content or not.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec enim nec urna accumsan fringilla.
+                Nullam eget tristique nunc.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

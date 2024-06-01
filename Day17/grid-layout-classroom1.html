@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout One</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            gap:10px;
+        }
+        .grid-item{
+            color: rgb(252, 252, 253);
+            padding: 20px;
+            border-radius: 5px;
+            background-color: rgb(54, 55, 55);
+        }
+        .a{
+            /* background-color: red; */
+            grid-column: 1/3;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item a">A</div>
+        <div class="grid-item b">B</div>
+        <div class="grid-item c">C</div>
+        <div class="grid-item d">D</div>
+    </div>
+</body>
+</html>

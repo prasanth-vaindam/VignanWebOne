@@ -1,0 +1,40 @@
+Day 16: May 27-05-2024 5:00 PM IST  - 18:43 Tell me when it ends
+------------------------------------------------------------------
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+Grid Columns:The vertical lines of grid items are called columns.
+
+Grid Rows: The horizontal lines of grid items are called rows.
+
+
+Grid Gaps: The spaces between each column/row are called gaps.
+You can adjust the gap size by using one of the following properties:
+
+column-gap
+row-gap
+gap
+
+
+The justify-content Property
+The justify-content property is used to align the whole grid inside the container.
+
+
+The align-content Property
+The align-content property is used to vertically align the whole grid inside the container.
+
+- Grids are two dimensional I can place things verticaly and horizontally and both simlutaneously
+- Our Grid is made up of cells also made up of tracks
+- 
+0
+Tasks:
+each cell in the grid should have a unique color
+
+Later Tomorrow: 1. Discuss the HOME Work - Tribute Page
+2. Max-Width
+3. Block-size
+4. Grid
+5. Dynamic Menu
+6. scroll effect
+7. tabs
+8. grid view
+9. bootstrap
+

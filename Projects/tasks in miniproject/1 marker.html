@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Marker Styling</title>
+    <style>
+        ul li::marker {
+            color: red;
+            font-size: 20px;
+        }
+
+        ol li::marker {
+            content: '👉 ';
+            color: blue;
+        }
+
+        ul.custom-list li::marker {
+            content: '★ ';
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Unordered item 1</li>
+        <li>Unordered item 2</li>
+    </ul>
+    <ol>
+        <li>Ordered item 1</li>
+        <li>Ordered item 2</li>
+    </ol>
+    <ul class="custom-list">
+        <li>Custom unordered item 1</li>
+        <li>Custom unordered item 2</li>
+    </ul>
+</body>
+
+</html>

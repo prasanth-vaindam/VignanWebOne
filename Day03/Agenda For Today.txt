@@ -1,0 +1,52 @@
+A Good Teacher is one who Understands his Students well
+---------------------------------------------------------
+Aim: Let Us all stay in the same page
+---------------------------------------------------------
+We will start with Few Questions a Quiz 
+1. On Important HTML Tags
+2. CSS Properties 
+3. DOM Object Manipulation
+4. A few Tasks
+---------------------------------------------------------
+- What is an element and what is an attributes please give examples 
+  How to display an image on the webpage
+  <img src="" width=30px height=30px/>
+
+  How to display all the paragraphs in red color in multiple pages of a  web page
+  what is the difference between blocklevel and inline element
+  give me examples of each
+
+
+- Class and Id  are global attributes 
+
+Task: CSS Basic Properties apply 
+which Properties do you apply here to achieve the result
+
+What is the use of External CSS ? what is Inline CSS ? What is Internal CSS?
+Which has got more priority, which one to use in real websites
+NOTE: Always avoid Inline CSS, use it only if you need to override a global Style
+----------------------------------
+What actually happened:
+backgroup
+border margin
+BoxModel
+Span
+Class Selection Id Selectors
+Different ways of applying styles
+Block and Inline
+Span
+EM i
+span
+---------------------------
+Plan for Tomorrow:
+Table:
+Q. What are tables used for in HTML?
+A: To reresent Data in Rows and Coloumns
+
+Lists:
+- Ordered List Unordered List 
+- ListItems containg Image side by side
+BoxModel
+Semantic Tags
+
+

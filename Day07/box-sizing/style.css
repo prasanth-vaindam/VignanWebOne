@@ -1,0 +1,25 @@
+#contentbox{
+    width: 250px;
+    height:100px;
+    background-color: rgb(255, 0, 0);
+    color: greenyellow;
+    border: 10px solid yellow;
+    padding: 25px;
+    box-sizing: content-box;
+
+}
+#blank{
+    width: 250px;
+    height:100px;
+    background-color: rgb(2, 2, 2);
+}
+#borderbox{
+    width: 250px;
+    height:100px;
+    background-color: rgb(3, 55, 133);
+    /* border: 10px solid yellow;    */
+    color: greenyellow;
+    border: 10px solid yellow;
+    padding: 25px;
+    box-sizing: border-box;
+}

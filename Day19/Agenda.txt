@@ -1,0 +1,23 @@
+Day 19: 30th May 2024 17:07 PM IST - 18:26 - 18:54  PM IST
+--------------------------------------------------
+0. Home Work:
+
+1. Auto FLow
+
+2. minmax function
+
+
+3. Responsive without Zero Media Queries 
+
+What had happened
+------------------
+Recap on Float and Clear Properties
+Media Screen 
+Element selectors 
+Min Max property 
+Repeat function 
+Auto fill 
+Auto fit 
+Difference between auto fill and auto fit
+How we can achieve responsiveness without Media Query in CSS GRID
+Also Explained the Home Work Layout

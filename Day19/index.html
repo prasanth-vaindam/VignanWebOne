@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 400px;
+            width: 600px;
+        }
+
+        .container {
+            background-color: rgb(104, 243, 148);
+            display: grid;
+            grid-template-columns: repeat(2, 100px);
+            grid-template-rows: repeat(2, 100px);
+            width: 600px;
+
+            /* to align items with in the cell */
+            /* justify-items:end;
+            align-items: end; */
+            border: 8px solid black;
+            /* gap:10px; */
+
+            /* To align items with in the grid */
+            justify-content: center;
+            align-content: center;
+
+        }
+
+        .item {
+            background-color: rgba(225, 65, 73, .7);
+            /* border-radius: 20px; */
+            border: 3px solid rgb(225, 65, 73);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

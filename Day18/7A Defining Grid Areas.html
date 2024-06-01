@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Areas</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px;
+            grid-template-areas:
+                "top-bar top-bar ..."
+                "sidebar content content";
+            background-color: #fff;
+            color: #444;
+        }
+
+        .grid-item {
+            background-color: #444;
+            color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 150%;
+        }
+
+        #one {
+            background-color: greenyellow;
+            grid-area: top-bar;
+        }
+
+        .two {
+            grid-area: sidebar;
+        }
+
+        .three {
+            grid-area: content;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <!-- first div - Header: you have to define a grid area using grid-area property -->
+        <div class="grid-item" id="one">Header</div>
+        <div class="grid-item two">Sidebar</div>
+        <div class="grid-item three">Content</div>
+    </div>
+
+</body>
+
+</html>
