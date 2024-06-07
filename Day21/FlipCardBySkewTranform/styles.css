@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#target-section {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  transform: translate(-50%, -50%) scale(0.1) rotateY(90deg);
+  transition: transform 0.6s ease-in-out;
+}
+
+#target-section.visible {
+  display: block;
+  transform: translate(-50%, -50%) scale(1) rotateY(0deg);
+}
