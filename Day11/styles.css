@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    /* justify-content: ; */
+    /* row-gap: 10px;
+    column-gap: 3px; */
+    /* gap: 5px; */
+    
+    
+    align-items: center;
+    height: 80vh;
+    /* step 1: 
+    flex-direction: row-reverse; 
+    */
+    
+
+    /*
+    step 2:
+    main axis = x-axis 
+    justify-content: ;
+    justify-content: space-between;
+    cross axis = y-axis
+    */
+
+    /*
+    step 3: add border
+    */
+    border: 3px solid black;
+    /* height: 80vh; */
+
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline; here change the font size of one element */
+
+    /* step 4:
+    add more items in the container */
+    /* flex-wrap: wrap; default */
+    /* flex-wrap: wrap;  */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap works along with align content*/
+    /* align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-evenly;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: flex-start;
+    column-gap: 2em;
+    row-gap: 2em; */
+    /*step 5 :display: remove extera content*/
+    
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    margin: 1px;
+    box-sizing: border-box;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+#box1{
+    flex-grow: 3;
+    background-color: chartreuse;
+    /* remove flex-wrap
+    apply aling-self
+    order: 1;
+    */
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px; */
+    /* flex: 1 0 100px; */
+    /* align-self: center; */
+}
+#box2{
+    flex-grow: 2;
+    background-color: rgb(238, 255, 3);
+    /* order: -1; */
+}
+#box3{
+    flex-grow: 1;
+    background-color: rgb(152, 131, 230);
+}
+#box4{
+    background-color: rgb(230, 129, 208);
+}
