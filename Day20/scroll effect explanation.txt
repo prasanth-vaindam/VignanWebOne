@@ -1,0 +1,9 @@
+1. scrollToSection: A function to scroll to a specified section.
+
+2. sectionId: The ID of the section to scroll to.
+
+3. behavior: Defines how the scrolling will occur ("smooth" for smooth scrolling, "auto" for instant scrolling).
+
+4. document.getElementById: Retrieves the section element by its ID.
+
+5. scrollIntoView: Scrolls the page to make the section visible in the viewport.
