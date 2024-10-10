@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1110;
+}
+
+.logo img {
+  /* height: 50px; */
+  height: 75px;
+  border-radius: 50px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.download-cv-btn {
+  background-color: #ff005a;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-cv-btn:hover {
+  background-color: #ff3366;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+}
+
+.typing {
+  color: #ff005a;
+  display: inline-block; /* Ensure it does not affect surrounding elements */
+  height: 1.2em; /* Set height to match the line-height of the text */
+  line-height: 1.2em; /* Ensure the text stays vertically centered */
+  vertical-align: middle; /* Align the text vertically in the middle */
+}
+
+#myskills{
+     font-family: Arial, sans-serif;
+     font-weight: bolder;
+     font-size: 60px;
+}
